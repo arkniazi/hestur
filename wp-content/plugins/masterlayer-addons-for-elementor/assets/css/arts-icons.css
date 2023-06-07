@@ -1,0 +1,204 @@
+@font-face {
+  font-family: 'arts-icons';
+  src:  url('../fonts/arts-icons/arts-icons.eot?5pf9e9');
+  src:  url('../fonts/arts-icons/arts-icons.eot?5pf9e9#iefix') format('embedded-opentype'),
+    url('../fonts/arts-icons/arts-icons.ttf?5pf9e9') format('truetype'),
+    url('../fonts/arts-icons/arts-icons.woff?5pf9e9') format('woff'),
+    url('../fonts/arts-icons/arts-icons.svg?5pf9e9#arts-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="aicon-"], [class*=" aicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'arts-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: inherit;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.aicon-picture:before {
+  content: "\e900";
+}
+.aicon-art:before {
+  content: "\e901";
+}
+.aicon-paint:before {
+  content: "\e902";
+}
+.aicon-piano:before {
+  content: "\e903";
+}
+.aicon-roll:before {
+  content: "\e904";
+}
+.aicon-easel:before {
+  content: "\e905";
+}
+.aicon-ceramics:before {
+  content: "\e906";
+}
+.aicon-magician:before {
+  content: "\e907";
+}
+.aicon-ink:before {
+  content: "\e908";
+}
+.aicon-turntable:before {
+  content: "\e909";
+}
+.aicon-graffiti:before {
+  content: "\e90a";
+}
+.aicon-camera:before {
+  content: "\e90b";
+}
+.aicon-palette:before {
+  content: "\e90c";
+}
+.aicon-artist:before {
+  content: "\e90d";
+}
+.aicon-crayons:before {
+  content: "\e90e";
+}
+.aicon-column:before {
+  content: "\e90f";
+}
+.aicon-rules:before {
+  content: "\e910";
+}
+.aicon-graphic-design:before {
+  content: "\e911";
+}
+.aicon-pen-tool:before {
+  content: "\e912";
+}
+.aicon-idea:before {
+  content: "\e913";
+}
+.aicon-theater:before {
+  content: "\e914";
+}
+.aicon-paper-cut:before {
+  content: "\e915";
+}
+.aicon-book:before {
+  content: "\e916";
+}
+.aicon-singer:before {
+  content: "\e917";
+}
+.aicon-circus:before {
+  content: "\e918";
+}
+.aicon-pantone:before {
+  content: "\e919";
+}
+.aicon-vector:before {
+  content: "\e91a";
+}
+.aicon-color-wheel:before {
+  content: "\e91b";
+}
+.aicon-gallery:before {
+  content: "\e91c";
+}
+.aicon-Watercolor:before {
+  content: "\e91d";
+}
+.aicon-origami:before {
+  content: "\e91e";
+}
+.aicon-technical:before {
+  content: "\e91f";
+}
+.aicon-make-up:before {
+  content: "\e920";
+}
+.aicon-cinema:before {
+  content: "\e921";
+}
+.aicon-modern-architecture:before {
+  content: "\e922";
+}
+.aicon-ice-skating:before {
+  content: "\e923";
+}
+.aicon-guitar-music:before {
+  content: "\e924";
+}
+.aicon-graphic-tablet:before {
+  content: "\e925";
+}
+.aicon-typewriter:before {
+  content: "\e926";
+}
+.aicon-clapperboard:before {
+  content: "\e927";
+}
+.aicon-art1:before {
+  content: "\e928";
+}
+.aicon-blueprint:before {
+  content: "\e929";
+}
+.aicon-cooking:before {
+  content: "\e92a";
+}
+.aicon-sketchbook:before {
+  content: "\e92b";
+}
+.aicon-draw:before {
+  content: "\e92c";
+}
+.aicon-artist1:before {
+  content: "\e92d";
+}
+.aicon-bohemian:before {
+  content: "\e92e";
+}
+.aicon-mortarboard:before {
+  content: "\e92f";
+}
+.aicon-Jazz:before {
+  content: "\e930";
+}
+.aicon-ink1:before {
+  content: "\e931";
+}
+.aicon-ring:before {
+  content: "\e932";
+}
+.aicon-bust:before {
+  content: "\e933";
+}
+.aicon-desk:before {
+  content: "\e934";
+}
+.aicon-write:before {
+  content: "\e935";
+}
+.aicon-tickets:before {
+  content: "\e936";
+}
+.aicon-airbrush:before {
+  content: "\e937";
+}
+.aicon-oil-paint:before {
+  content: "\e938";
+}
+.aicon-camera1:before {
+  content: "\e939";
+}
+.aicon-theater1:before {
+  content: "\e93a";
+}

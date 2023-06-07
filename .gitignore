@@ -1,43 +1,48 @@
-.htaccess
-robots.txt
-nginx.conf
-.idea/*
+# Wordpress - ignore core, configuration, examples, uploads and logs.
+# https://github.com/github/gitignore/blob/main/WordPress.gitignore
+
+# Core
+#
+# Note: if you want to stage/commit WP core files
+# you can delete this whole section/until Configuration.
 /wp-admin/
+/wp-content/index.php
+/wp-content/languages
+/wp-content/plugins/index.php
+/wp-content/themes/index.php
 /wp-includes/
-/wp-content/uploads/*
-!/wp-content/uploads/index.php
-/wp-content/uploads/cache/*
-/wp-content/plugins/*
-!/wp-content/plugins/index.php
-!/wp-content/plugins/inet-core/*
-!/wp-content/plugins/inet-forms/*
-!/wp-content/plugins/inet-reviews/*
-/wp-content/mu-plugins/*
-/wp-content/upgrade/*
-/wp-content/maintenance/*
-/wp-content/languages/*
-/wp-content/themes/inet_lightspeed/_notes/dwsync.xml
-/wp-content/themes/inet_lightspeed/node_modules/
-/wp-content/themes/inet_lightspeed-child/node_modules/
-/wp-content/plugins/inet-core/_notes/dwsync.xml
-/wp-config.php
-/wp-content/w3tc-config/
-/wp-content/cache/*
-/wp-content/advanced-cache.php
-/wp-content/db.php
-/wp-content/object-cache.php
-/xmlrpc.php
-/wp-trackback.php
-/wp-signup.php
-/wp-settings.php
-/wp-mail.php
-/wp-login.php
-/wp-load.php
-/wp-links-opml.php
-/wp-cron.php
-/wp-comments-post.php
-/wp-blog-header.php
-/wp-activate.php
-/readme.html
-/license.txt
 /index.php
+/license.txt
+/readme.html
+/wp-*.php
+/xmlrpc.php
+
+# Configuration
+wp-config.php
+
+# Example themes
+/wp-content/themes/twenty*/
+
+# Example plugin
+/wp-content/plugins/hello.php
+
+# Uploads
+/wp-content/uploads/
+
+# Log files
+*.log
+
+# htaccess
+/.htaccess
+
+# All plugins
+#
+# Note: If you wish to whitelist plugins,
+# uncomment the next line
+#/wp-content/plugins
+
+# All themes
+#
+# Note: If you wish to whitelist themes,
+# uncomment the next line
+#/wp-content/themes

@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "socials-icons";
+  src: url("../fonts/socials-icons/socials-icons.eot");
+  src: url("../fonts/socials-icons/socials-icons.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/socials-icons/socials-icons.woff") format("woff"),
+       url("../fonts/socials-icons/socials-icons.ttf") format("truetype"),
+       url("../fonts/socials-icons/socials-icons.svg#socials-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "socials-icons";
+    src: url("../fonts/socials-icons/socials-icons.svg#socials-icons") format("svg");
+  }
+}
+
+[class^="sicon-"]:before, [class*=" sicon-"]:before,
+[class^="sicon-"]:after, [class*=" sicon-"]:after {   
+  font-family: socials-icons;
+  font-style: normal;
+  line-height: inherit;
+  font-size: normal;
+}
+
+.sicon-001-cloud-computing:before { content: "\f100"; }
+.sicon-002-worldwide:before { content: "\f101"; }
+.sicon-003-rss:before { content: "\f102"; }
+.sicon-004-twitter:before { content: "\f103"; }
+.sicon-005-hashtag:before { content: "\f104"; }
+.sicon-006-pin:before { content: "\f105"; }
+.sicon-007-heart:before { content: "\f106"; }
+.sicon-008-paypal:before { content: "\f107"; }
+.sicon-009-xing:before { content: "\f108"; }
+.sicon-010-star:before { content: "\f109"; }
+.sicon-011-windows:before { content: "\f10a"; }
+.sicon-012-network:before { content: "\f10b"; }
+.sicon-013-facebook:before { content: "\f10c"; }
+.sicon-014-instagram:before { content: "\f10d"; }
+.sicon-015-linkedin:before { content: "\f10e"; }
+.sicon-016-like:before { content: "\f10f"; }
+.sicon-017-dislike:before { content: "\f110"; }
+.sicon-018-youtube:before { content: "\f111"; }
+.sicon-019-messenger:before { content: "\f112"; }
+.sicon-020-telegram:before { content: "\f113"; }
+.sicon-021-chat:before { content: "\f114"; }
+.sicon-022-happy:before { content: "\f115"; }
+.sicon-023-sad:before { content: "\f116"; }
+.sicon-024-file:before { content: "\f117"; }
+.sicon-025-file-1:before { content: "\f118"; }
+.sicon-026-playstore:before { content: "\f119"; }
+.sicon-027-whatsapp:before { content: "\f11a"; }
+.sicon-028-skype:before { content: "\f11b"; }
+.sicon-029-retweet:before { content: "\f11c"; }
+.sicon-030-chat-1:before { content: "\f11d"; }
+.sicon-031-photo-camera:before { content: "\f11e"; }
+.sicon-032-network-1:before { content: "\f11f"; }
+.sicon-033-image:before { content: "\f120"; }
+.sicon-034-myspace:before { content: "\f121"; }
+.sicon-035-user:before { content: "\f122"; }
+.sicon-036-network-2:before { content: "\f123"; }
+.sicon-037-information:before { content: "\f124"; }
+.sicon-038-like-1:before { content: "\f125"; }
+.sicon-039-happy-1:before { content: "\f126"; }
+.sicon-040-deviantart:before { content: "\f127"; }
+.sicon-041-vimeo:before { content: "\f128"; }
+.sicon-042-behance:before { content: "\f129"; }
+.sicon-043-email:before { content: "\f12a"; }
+.sicon-044-flickr:before { content: "\f12b"; }
+.sicon-045-suitcase:before { content: "\f12c"; }
+.sicon-046-network-3:before { content: "\f12d"; }
+.sicon-047-chat-2:before { content: "\f12e"; }
+.sicon-048-notification:before { content: "\f12f"; }
+.sicon-049-agenda:before { content: "\f130"; }
+.sicon-050-megaphone:before { content: "\f131"; }

@@ -1,0 +1,317 @@
+@font-face {
+  font-family: 'Core Icon';
+  src:  url('../font/core-icons/core.eot?ugugne');
+  src:  url('../font/core-icons/core.eot?ugugne#iefix') format('embedded-opentype'),
+    url('../font/core-icons/core.ttf?ugugne') format('truetype'),
+    url('../font/core-icons/core.woff?ugugne') format('woff'),
+    url('../font/core-icons/core.svg?ugugne#core') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ci-"], [class*=" ci-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Core Icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="ci-"]:before, [class*=" ci-"]:before {
+  color: inherit !important;
+}
+
+.ci-book:before {
+  content: "\e900";
+  color: #43484d;
+}
+.ci-user:before {
+  content: "\e901";
+  color: #43484d;
+}
+.ci-pen:before {
+  content: "\e902";
+  color: #474747;
+}
+.ci-house:before {
+  content: "\e903";
+  color: #43484d;
+}
+.ci-microphone:before {
+  content: "\e904";
+  color: #43484d;
+}
+.ci-shopping-bag:before {
+  content: "\e905";
+  color: #474747;
+}
+.ci-battery:before {
+  content: "\e906";
+  color: #43484d;
+}
+.ci-pause:before {
+  content: "\e907";
+  color: #43484d;
+}
+.ci-play:before {
+  content: "\e908";
+  color: #43484d;
+}
+.ci-paper-bag:before {
+  content: "\e909";
+  color: #43484d;
+}
+.ci-tablets:before {
+  content: "\e90a";
+  color: #43484d;
+}
+.ci-layer:before {
+  content: "\e90b";
+  color: #43484d;
+}
+.ci-tag:before {
+  content: "\e90c";
+  color: #43484d;
+}
+.ci-paperclip:before {
+  content: "\e90d";
+  color: #43484d;
+}
+.ci-card:before {
+  content: "\e90e";
+  color: #43484d;
+}
+.ci-money:before {
+  content: "\e90f";
+  color: #43484d;
+}
+.ci-bag:before {
+  content: "\e910";
+  color: #43484d;
+}
+.ci-Icon-17:before {
+  content: "\e911";
+  color: #43484d;
+}
+.ci-gem:before {
+  content: "\e912";
+  color: #43484d;
+}
+.ci-minus-flag:before {
+  content: "\e913";
+  color: #43484d;
+}
+.ci-minus-plus:before {
+  content: "\e914";
+  color: #43484d;
+}
+.ci-image:before {
+  content: "\e915";
+  color: #43484d;
+}
+.ci-comment:before {
+  content: "\e916";
+  color: #43484d;
+}
+.ci-map-marker:before {
+  content: "\e917";
+  color: #43484d;
+}
+.ci-folder:before {
+  content: "\e918";
+  color: #43484d;
+}
+.ci-files:before {
+  content: "\e919";
+  color: #43484d;
+}
+.ci-shop:before {
+  content: "\e91a";
+  color: #43484d;
+}
+.ci-expand:before {
+  content: "\e91b";
+  color: #43484d;
+}
+.ci-bar2:before {
+  content: "\e91c";
+  color: #43484d;
+}
+.ci-chart-bar:before {
+  content: "\e91d";
+  color: #43484d;
+}
+.ci-bin:before {
+  content: "\e91e";
+  color: #43484d;
+}
+.ci-minus-square:before {
+  content: "\e91f";
+  color: #43484d;
+}
+.ci-plus-square:before {
+  content: "\e920";
+  color: #43484d;
+}
+.ci-minus-circle:before {
+  content: "\e921";
+  color: #43484d;
+}
+.ci-plus-circle:before {
+  content: "\e922";
+  color: #43484d;
+}
+.ci-clock:before {
+  content: "\e923";
+  color: #43484d;
+}
+.ci-cart:before {
+  content: "\e924";
+  color: #43484d;
+}
+.ci-upload:before {
+  content: "\e925";
+  color: #43484d;
+}
+.ci-download:before {
+  content: "\e926";
+  color: #43484d;
+}
+.ci-Icon-39:before {
+  content: "\e927";
+  color: #43484d;
+}
+.ci-check-circle:before {
+  content: "\e928";
+  color: #43484d;
+}
+.ci-calendar-check:before {
+  content: "\e929";
+  color: #43484d;
+}
+.ci-file:before {
+  content: "\e92a";
+  color: #43484d;
+}
+.ci-phone:before {
+  content: "\e92b";
+  color: #43484d;
+}
+.ci-shopping-cart:before {
+  content: "\e92c";
+  color: #43484d;
+}
+.ci-volume:before {
+  content: "\e92d";
+  color: #43484d;
+}
+.ci-T:before {
+  content: "\e92e";
+  color: #43484d;
+}
+.ci-rain:before {
+  content: "\e92f";
+  color: #43484d;
+}
+.ci-gear:before {
+  content: "\e930";
+  color: #43484d;
+}
+.ci-camera:before {
+  content: "\e931";
+  color: #43484d;
+}
+.ci-heart-beat:before {
+  content: "\e932";
+  color: #43484d;
+}
+.ci-th:before {
+  content: "\e933";
+  color: #43484d;
+}
+.ci-th2:before {
+  content: "\e934";
+  color: #43484d;
+}
+.ci-sun:before {
+  content: "\e935";
+  color: #43484d;
+}
+.ci-bar3:before {
+  content: "\e936";
+  color: #43484d;
+}
+.ci-envelope:before {
+  content: "\e937";
+  color: #43484d;
+}
+.ci-eye:before {
+  content: "\e938";
+  color: #43484d;
+}
+.ci-umbrella:before {
+  content: "\e939";
+  color: #43484d;
+}
+.ci-edit:before {
+  content: "\e93a";
+  color: #43484d;
+}
+.ci-like:before {
+  content: "\e93b";
+  color: #43484d;
+}
+.ci-flat:before {
+  content: "\e93c";
+  color: #43484d;
+}
+.ci-arrow-left:before {
+  content: "\e93d";
+  color: #474747;
+}
+.ci-arrow-right:before {
+  content: "\e93e";
+  color: #474747;
+}
+.ci-ellipsis:before {
+  content: "\e93f";
+  color: #474747;
+}
+.ci-fax:before {
+  content: "\e940";
+  color: #474747;
+}
+.ci-close:before {
+  content: "\e941";
+  color: #43484d;
+}
+.ci-bar:before {
+  content: "\e942";
+  color: #43484d;
+}
+.ci-search:before {
+  content: "\e943";
+  color: #43484d;
+}
+.ci-heart:before {
+  content: "\e944";
+  color: #43484d;
+}
+.ci-clould-download:before {
+  content: "\e945";
+  color: #43484d;
+}
+.ci-long-arrow-left:before {
+  content: "\f177";
+}
+.ci-long-arrow-right:before {
+  content: "\f178";
+}

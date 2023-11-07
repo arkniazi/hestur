@@ -1,9 +1,9 @@
-=== MailPoet - emails and newsletters in WordPress ===
-Contributors: mailpoet
+=== MailPoet - Newsletters, Email Marketing, and Automation ===
+Contributors: mailpoet, woocommerce, automattic
 Tags: email, email marketing, post notification, woocommerce emails, email automation, newsletter, newsletter builder, newsletter subscribers
 Requires at least: 6.0
 Tested up to: 6.2
-Stable tag: 4.17.1
+Stable tag: 4.18.1
 Requires PHP: 7.3
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -12,13 +12,21 @@ Send beautiful newsletters from WordPress. Collect subscribers with signup forms
 
 == Description ==
 
+= Get 40% off all annual plans and upgrades =
+
+Get 40% off all MailPoet annual plans and upgrades – no coupon required. Offer starts at 2 pm UTC on Wednesday, June 14, 2023, and ends at 2 pm UTC on Monday, June 19, 2023. Terms and conditions apply.
+
+[Pick a plan and save](https://account.mailpoet.com/?billing=yearly&ref=sale-june-2023-wporg&utm_source=wordpress.org&utm_medium=description&utm_campaign=sale_june_2023)
+
+= What is MailPoet? =
+
 Use MailPoet to create, send, manage, and grow your email marketing campaigns – all without leaving your WordPress dashboard.
 
 Our newsletter builder integrates perfectly with WordPress so any website owner can create beautiful emails from scratch, or by using our responsive templates that display flawlessly across all devices.
 
 Schedule your newsletters, send them right away, or set up new blog post notifications to send automatically, in just a few clicks.
 
-Trusted by 500,000 WordPress websites since 2011.
+Trusted by 600,000 WordPress websites since 2011.
 
 **With a free plan for up to 1,000 subscribers, and scaling paid plans with enhanced functionality available, MailPoet is an email marketing solution suitable for both beginners and proficient email marketers.**
 
@@ -218,6 +226,17 @@ Check our [Knowledge Base](https://kb.mailpoet.com) or contact us through our [s
 6. WooCommerce emails
 
 == Changelog ==
+
+= 4.18.1 - 2023-06-12 =
+* Fixed: rarely the last page before sending the email can fail to load;
+* Fixed: can't attach image in the email when using betheme theme (error: this.activateMode is not a function).
+
+= 4.18.0 - 2023-06-05 =
+* Improved: "is in country" segment no longer requires completed WooCommerce order. If the user has country assigned, it will be used for segmenting;
+* Changed: opt-in checkbox in checkout no longer unsubscribes when unchecked;
+* Fixed: Subscriber segmentation can now target contacts who did not open any emails;
+* Fixed: PHP notices and incorrect form styling when not all padding values are specified;
+* Fixed: opt-in checkbox position in checkout when using Twenty Twenty-Two and Three themes.
 
 = 4.17.1 - 2023-05-31 =
 * Fix: Stop adding indexes to first name and name field, when they already have been created.

@@ -5,6 +5,7 @@ Requires at least: 5.9
 Tested up to: 6.2
 Requires PHP: 7.0
 Stable tag: 3.13.4
+Beta tag: 3.14.0-beta5
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -238,6 +239,8 @@ You can also add a new language via [translate.wordpress.org](https://go.element
 
 == Changelog ==
 
+See Elementor Developer Edition versions changelog [here](https://go.elementor.com/dev-changelog/)
+
 = 3.13.4 - 2023-05-28 =
 
 * Fix: Unable to save a new Global Widget ([#22544](https://github.com/elementor/elementor/issues/22544))
@@ -246,8 +249,6 @@ You can also add a new language via [translate.wordpress.org](https://go.element
 
 * Security Fix: Addressed security weaknesses in template creation mechanism
 * Tweak: Improved error messages when a kit is not downloaded successfully in Kit Library
-
-See Elementor Developer Edition versions changelog [here](https://go.elementor.com/dev-changelog/)
 
 = 3.13.2 - 2023-05-11 =
 

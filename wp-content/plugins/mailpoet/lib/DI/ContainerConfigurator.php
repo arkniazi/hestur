@@ -158,6 +158,9 @@ class ContainerConfigurator implements IContainerConfigurator {
     // Automation - core integration
     $container->autowire(\MailPoet\Automation\Integrations\Core\Actions\DelayAction::class)->setPublic(true);
     $container->autowire(\MailPoet\Automation\Integrations\Core\CoreIntegration::class)->setPublic(true);
+    // Automation - WordPress integration
+    $container->autowire(\MailPoet\Automation\Integrations\WordPress\WordPressIntegration::class)->setPublic(true);
+    $container->autowire(\MailPoet\Automation\Integrations\WordPress\Subjects\UserSubject::class)->setPublic(true);
     // Automation - MailPoet integration
     $container->autowire(\MailPoet\Automation\Integrations\MailPoet\ContextFactory::class)->setPublic(true);
     $container->autowire(\MailPoet\Automation\Integrations\MailPoet\MailPoetIntegration::class)->setPublic(true);
@@ -176,14 +179,20 @@ class ContainerConfigurator implements IContainerConfigurator {
     $container->autowire(\MailPoet\Automation\Integrations\MailPoet\Hooks\CreateAutomationRunHook::class)->setPublic(true);
     $container->autowire(\MailPoet\Automation\Integrations\MailPoet\SubjectTransformers\OrderSubjectToSubscriberSubjectTransformer::class)->setPublic(true)->setShared(false);
     $container->autowire(\MailPoet\Automation\Integrations\MailPoet\SubjectTransformers\OrderSubjectToSegmentSubjectTransformer::class)->setPublic(true)->setShared(false);
+    $container->autowire(\MailPoet\Automation\Integrations\MailPoet\SubjectTransformers\SubscriberSubjectToWordPressUserSubjectTransformer::class)->setPublic(true)->setShared(false);
 
     // Automation - WooCommerce integration
+    $container->autowire(\MailPoet\Automation\Integrations\WooCommerce\WooCommerce::class)->setPublic(true);
     $container->autowire(\MailPoet\Automation\Integrations\WooCommerce\ContextFactory::class)->setPublic(true);
     $container->autowire(\MailPoet\Automation\Integrations\WooCommerce\WooCommerceIntegration::class)->setPublic(true);
+    $container->autowire(\MailPoet\Automation\Integrations\WooCommerce\Fields\CustomerFieldsFactory::class)->setPublic(true);
+    $container->autowire(\MailPoet\Automation\Integrations\WooCommerce\Fields\CustomerOrderFieldsFactory::class)->setPublic(true);
+    $container->autowire(\MailPoet\Automation\Integrations\WooCommerce\Fields\CustomerReviewFieldsFactory::class)->setPublic(true);
     $container->autowire(\MailPoet\Automation\Integrations\WooCommerce\Triggers\OrderStatusChangedTrigger::class)->setPublic(true)->setShared(false);
     $container->autowire(\MailPoet\Automation\Integrations\WooCommerce\Subjects\OrderSubject::class)->setPublic(true)->setShared(false);
     $container->autowire(\MailPoet\Automation\Integrations\WooCommerce\Subjects\OrderStatusChangeSubject::class)->setPublic(true)->setShared(false);
     $container->autowire(\MailPoet\Automation\Integrations\WooCommerce\Subjects\CustomerSubject::class)->setPublic(true)->setShared(false);
+    $container->autowire(\MailPoet\Automation\Integrations\WooCommerce\SubjectTransformers\WordPressUserSubjectToWooCommerceCustomerSubjectTransformer::class)->setPublic(true)->setShared(false);
 
     // Config
     $container->autowire(\MailPoet\Config\AccessControl::class)->setPublic(true);

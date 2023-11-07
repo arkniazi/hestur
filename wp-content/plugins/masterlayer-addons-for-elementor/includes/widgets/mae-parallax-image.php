@@ -333,6 +333,7 @@ class MAE_Parallax_Image_Widget extends Widget_Base{
 						$pl['top_offset']['size'].$pl['top_offset']['unit'],
 						$pl['top_offset_tablet']['size'].$pl['top_offset_tablet']['unit'],
 						$pl['top_offset_mobile']['size'].$pl['top_offset_mobile']['unit']
+					
 					);
 					?>
 				<?php endforeach; endif; ?>
